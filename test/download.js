@@ -9,7 +9,7 @@ const downloadFun = function (url, project) {
     if (!err) {
       spinner.succeed('下载成功')
       console.log(chalk.blue.bold('Done!'), chalk.bold('you run:'))
-      console.log('cd' + project)
+      console.log('cd ' + project)
       console.log('npm install')
       console.log('npm run dev')
     } else {
